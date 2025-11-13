@@ -8,11 +8,11 @@ AI assistant command for comprehensive test coverage and bug discovery. Use it f
 - Exploratory testing and advanced coverage analysis
 - Applying common testing heuristics to detect bugs and feature gaps
 
-The command contains extensive test heuristics and information on common coding mistakes from [BugMagnet](https://www.bugmagnet.org) and [Humans vs Computers](https://gojko.net/books/humans-vs-computers/).
+The command contains extensive test heuristics and information on common coding mistakes from [BugMagnet](https://www.bugmagnet.org), [Humans vs Computers](https://gojko.net/books/humans-vs-computers/), Elisabeth Hendrickson's Test Heuristics Cheat-sheet and many other exploratory testing reference lists.
 
 ## Installation
 
-For Claude Code, copy <commands/bugmagnet.md> into your command directory (usually `.claude/commands`).
+For Claude Code, copy [commands/bugmagnet.md](commands/bugmagnet.md) into your command directory (usually `.claude/commands`).
 
 ## Usage
 
@@ -20,6 +20,9 @@ For Claude Code, run the slash command and point it to a file you want to analyz
 
 ```
 /bugmagnet src/auth/cognito-auth-session.js
+/bugmagnet src/main/java/com/example/Service.java
+/bugmagnet src/calculator.py
+/bugmagnet pkg/handler/processor.go
 ```
 
 ## Compatibility
@@ -46,5 +49,9 @@ in that step as well.
 
 ## LICENSE
 
-MIT, see <LICENSE.md>
+MIT, see [LICENSE.md](LICENSE.md)
+
+## Author
+
+[Gojko Adzic](https://www.gojko.net)
 
