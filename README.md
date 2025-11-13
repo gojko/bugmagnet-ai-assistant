@@ -53,5 +53,5 @@ MIT, see [LICENSE.md](LICENSE.md)
 
 ## Author
 
-[Gojko Adzic](https://www.gojko.net)
+[Gojko Adzic](https://gojko.net)
 
