@@ -12,7 +12,10 @@ The command contains extensive test heuristics and information on common coding 
 
 ## Installation
 
-For Claude Code, copy [commands/bugmagnet.md](commands/bugmagnet.md) into your command directory (usually `.claude/commands`).
+Copy [commands/bugmagnet.md](commands/bugmagnet.md) into your command directory
+
+- for **Claude Code**, this is usually `.claude/commands`. See <https://code.claude.com/docs/en/slash-commands#custom-slash-commands> for more information.
+- for **Cursor**, this is `.cursor/commands` in your project. See <https://cursor.com/docs/agent/chat/commands> for more information.
 
 ## Usage
 
